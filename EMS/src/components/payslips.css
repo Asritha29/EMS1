@@ -1,0 +1,39 @@
+body {
+    font-family: "Times New Roman", Times, serif;
+  
+  }
+  table {
+    width: 100%;
+    border-radius: 5px solid;
+    border-spacing: 0;
+    margin-bottom: 20px;
+  }
+  tr {
+    border: solid 1px #524f4f;
+    border-top-color: #524f4f;
+  }
+  th,
+  td {
+    padding: 8px;
+    text-align: left;  
+    color: #101f3e;
+    background-color: #fff;
+  }
+  th {
+    background-color: #f8f9fb !important;
+    color: #7888a8;
+  }
+  p {
+    text-align: center;
+    color: black;
+  }
+  .color_primary {
+    color: black;
+  }
+  .color_sec {
+    color: #4d618a;
+  }
+  .pay{
+    margin-left: 12%;
+    margin-top: 2%;
+  }
