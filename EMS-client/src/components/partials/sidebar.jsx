@@ -18,25 +18,25 @@ const Sidebar = () => {
                         <div id="my-nav">
                             <ul className="navbar-nav ms-auto">
                                 <li className="nav-item active">
-                                    <a className="nav-link" href="/EMS" style={{ color: 'azure' }}><i className="bi bi-house"></i>&nbsp; Home</a>
+                                    <a className="nav-link" href="/home" style={{ color: 'azure' }}><i className="bi bi-house"></i>&nbsp; Home</a>
                                 </li>
                                 <li className="nav-item active navbar-text">
-                                    <a className="nav-link" href="/EMS/add" style={{ color: 'azure' }}><i className="bi bi-person-plus-fill"></i>&nbsp; Add Employee</a>
+                                    <a className="nav-link" href="/home/add" style={{ color: 'azure' }}><i className="bi bi-person-plus-fill"></i>&nbsp; Add Employee</a>
                                 </li>
                                 <li className="nav-item active navbar-text">
-                                    <a className="nav-link" href="/EMS/attendance" style={{ color: 'azure' }}><i className="bi bi-calendar2-event"></i>&nbsp; Attendance Tracker</a>
+                                    <a className="nav-link" href="/home/attendance" style={{ color: 'azure' }}><i className="bi bi-calendar2-event"></i>&nbsp; Attendance Tracker</a>
 
                                 </li>
                                 <li className="nav-item active navbar-text">
-                                    <a className="nav-link" href="/EMS/payslip" style={{ color: 'azure' }}><i className="bi bi-file-earmark-ppt"></i>&nbsp; PaySlip</a>
+                                    <a className="nav-link" href="/home/payslip" style={{ color: 'azure' }}><i className="bi bi-file-earmark-ppt"></i>&nbsp; PaySlip</a>
                                 </li>
                                 <li className="nav-item dropdown"> 
   <a className="nav-link dropdown-toggle" href="#" role="button" id="leaveDropdown" data-bs-toggle="dropdown" aria-expanded="false" style={{ color: 'azure' }}>
     <i className="bi bi-envelope-plus"></i>&nbsp; Leave Tracking
   </a>
   <ul className="dropdown-menu" aria-labelledby="leaveDropdown">
-    <li><a className="dropdown-item" href="/EMS/leave">Leave Requests</a></li>
-    <li><a className="dropdown-item" href="/EMS/leavetracking">Leave Trackinng</a></li>
+    <li><a className="dropdown-item" href="/home/leave">Leave Requests</a></li>
+    <li><a className="dropdown-item" href="/home/leavetracking">Leave Trackinng</a></li>
     {/* Add other dropdown items */}
   </ul>
 </li>
